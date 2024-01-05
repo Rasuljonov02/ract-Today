@@ -3,7 +3,7 @@ import Project from "./project";
 
 function Main() {
 	return (
-		<div className="  ">
+		<div >
 			<Project />
 		</div>
 	);
