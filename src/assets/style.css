@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .cell {
+    @apply grid cursor-pointer place-items-center bg-white text-2xl font-bold  active:bg-[#c2deff];
+  }
+
+  .active {
+    @apply bg-[#c2deff];
+  }
+}
