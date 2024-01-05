@@ -1,12 +1,13 @@
+import Left from './left';
+import Right from './right';
 
-import Project from "./project";
-
-function Main() {
-	return (
-		<div >
-			<Project />
-		</div>
-	);
+function Project() {
+  return (
+    <div className="w-[100%] flex items-center">
+      <Left />
+      <Right />
+    </div>
+  );
 }
 
-export default Main;
+export default Project;

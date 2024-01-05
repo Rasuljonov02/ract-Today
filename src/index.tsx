@@ -1,10 +1,8 @@
+import { createRoot } from 'react-dom/client';
+import Main from './main';
 
-import ReactDOM from "react-dom/client";
-import "./assets/bundle.css";
-import App from "./App";
+import 'assets/style.css';
 
+const root = createRoot(document.getElementById('root')!);
 
-const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
-root.render(<App />);
-
-
+root.render(<Main />);
