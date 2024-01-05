@@ -5,7 +5,7 @@ import Todo_ong from './todo_ong';
 export default class Project extends React.Component {
     render() {
         return (
-            <div className="w-[100%]">
+            <div className="w-[100%] flex items-center">
                 <Todo_chap />
                 <Todo_ong />
             </div>
